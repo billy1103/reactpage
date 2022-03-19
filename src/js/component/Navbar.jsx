@@ -2,9 +2,11 @@ import React from "react";
 
 export function Navbar(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top px-5 mb-2">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+				<a
+					className="navbar-brand d-flex justify-content-start"
+					href="#">
 					Start Bootstrap
 				</a>
 				<button
@@ -18,7 +20,7 @@ export function Navbar(props) {
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div
-					className="collapse navbar-collapse"
+					className="collapse navbar-collapse d-flex justify-content-end"
 					id="navbarNavDropdown">
 					<ul className="navbar-nav">
 						<li className="nav-item">
